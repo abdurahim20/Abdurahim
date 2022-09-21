@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.imgBx{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
